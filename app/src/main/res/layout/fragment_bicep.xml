@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Bicep.BicepExercise"
+
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="751dp"
+                android:layout_height="1325dp"
+                android:fitsSystemWindows="true"
+                app:columnCount="2"
+                app:rowCount="2">
+
+                <ImageButton
+                    android:id="@+id/dumbellcurlbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:contentDescription="Dumbell Curl"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/standing_dumbbell_curl_bicep_workouts_hd_png_download" />
+
+                <ImageButton
+                    android:id="@+id/hammercurlbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/standing_dumbbell_biceps_hammer_curls" />
+
+                <ImageButton
+                    android:id="@+id/concentrationbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/concentration_curl" />
+
+                <ImageButton
+                    android:id="@+id/preacherbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pngaaa_com_2045559" />
+
+                <ImageButton
+                    android:id="@+id/seatedcurlbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/exercising_biceps_curls_seated" />
+
+                <ImageButton
+                    android:id="@+id/reversecurlbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/reverse_curl"
+                    android:tooltipText="Reverse Barbell Curl" />
+
+
+                <ImageButton
+                    android:id="@+id/highcurlbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/highcurl" />
+
+                <ImageButton
+                    android:id="@+id/preacherhammbtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/preacher_hammer" />
+
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

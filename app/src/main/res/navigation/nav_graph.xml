@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dumbellcurl">
+
+    <fragment
+        android:id="@+id/dumbellcurl"
+        android:name="com.example.gymworkout.ui.Bicep.dumbellcurl"
+        android:label="Dumbell Curl"
+        tools:layout="@layout/fragment_dumbellcurl" >
+    </fragment>
+    <fragment
+        android:id="@+id/concentration"
+        android:name="com.example.gymworkout.ui.Bicep.Concentration"
+        android:label="Concentration Curl"
+        tools:layout="@layout/fragment_concentration" />
+    <fragment
+        android:id="@+id/hammercurl"
+        android:name="com.example.gymworkout.ui.Bicep.HammerCurl"
+        android:label="Hammer Curl"
+        tools:layout="@layout/fragment_hammer_curl" />
+    <fragment
+        android:id="@+id/preacher"
+        android:name="com.example.gymworkout.ui.Bicep.PreacherCurl"
+        android:label="Preacher Curl"
+        tools:layout="@layout/fragment_preacher_curl" />
+    <fragment
+        android:id="@+id/seatedcurl"
+        android:name="com.example.gymworkout.ui.Bicep.SeatedDumbellCurl"
+        android:label="Seated Dumbbell Curl"
+        tools:layout="@layout/fragment_seated_dumbell_curl" />
+    <fragment
+        android:id="@+id/reversecurl"
+        android:name="com.example.gymworkout.ui.Bicep.ReverseCurl"
+        android:label="Reverse Curl"
+        tools:layout="@layout/fragment_reverse_curl" />
+    <fragment
+        android:id="@+id/highcurl"
+        android:name="com.example.gymworkout.ui.Bicep.HighCableCurl"
+        android:label="High Cable Curl"
+        tools:layout="@layout/fragment_high_cable_curl" />
+    <fragment
+        android:id="@+id/preacherhammer"
+        android:name="com.example.gymworkout.ui.Bicep.PreacherHammerCurl"
+        android:label="Preacher Hammer Curl"
+        tools:layout="@layout/fragment_preacher_hammer_curl" />
+
+</navigation>

@@ -1,3 +1,144 @@
 <resources>
     <string name="app_name">Gym Workout</string>
+    <string name="title_activity_home">Gym Workouts</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_abdominal">Abdominal Exercise</string>
+    <string name="menu_bicep">Bicep Exercise</string>
+    <string name="menu_tricep">Tricep Exercise</string>
+    <string name="abdominal_exercises">Abdominal Exercises</string>
+    <string name="bicep_exercise">Bicep Exercise</string>
+    <string name="tricep_exercise">Tricep Exercise</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bicep">Bicep</string>
+    <string name="title_activity_dumbellcurl">dumbellcurl</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="dumbell_curl_p1">
+        <b>How to do Dumbbell Curl:\n\n</b>
+       <p><b>Step 1:</b> Stand up and hold a dumbbell in each hand. Turn the palms of your hands until they are facing forward. This is the starting position.\n\n</p>
+        <p><b>Step 2:</b> While keeping your upper arms stationary, curl the dumbbells while contracting your biceps. Keep raising the weights until your biceps are fully contracted. The dumbbells should be at shoulder level. Hold this position briefly and squeeze your biceps.\n\n</p>
+        <p><b>Step 3:</b>Slowly lower the dumbbells back to the starting position, inhaling as you do so.\n\n</p>
+        <p><b>Step 4:</b> Repeat for the desired number of repetitions.\n\n</p>
+        <b>Tips:\n\n</b>
+            1. Keep your elbows close to your torso while performing this exercise.\n\n
+            2. Avoid jerking the dumbbells as you raise and lower them. Use a slow, continuous motion to do so.\n\n
+        <p><b>Variations:\n\n</b></p>
+        1. Try performing this exercise while sitting on a flat bench. You can use one with or without back support.\n\n
+        2. Try alternating your arms when you lift the dumbbells.\n\n
+
+    </string>
+    <string name="conccurl">
+        <b>How to do Concentration Curl: \n\n</b>
+        <b>Step 1:</b> Sit on a flat bench with a dumbbell in front of you positioned between your legs. Your legs should be spread with your knees bent and your feet flat on the floor.\n\n
+        <b>Step 2:</b> Pick the dumbbell up with your right hand. Place the back of your upper right arm on the top of your inner right thigh. Move the palm of your hand until it is facing forward. This is the starting position.\n\n
+        <b>Step 3:</b> Keeping your upper arm stationary, curl the weights forward while contracting your bicep. Exhale as you do so. Hold this position as you squeeze your biceps.\n\n
+        <b>Step 4:</b> Bring the dumbbells back to the starting position as you inhale. Do not swing the barbell.\n\n
+        <b>Step 5:</b> Repeat until you complete a full set and switch to your left arm.\n\n
+        <b>Tips:\n\n</b>
+        1. Only your forearm should be moving while performing this exercise.\n\n
+        2. When you get to the top of the movement, check to make sure your little finger is higher than your thumb. This means you will get a good contraction.\n\n
+        <b>Variations:\n\n</b>
+        <p>1. Perform the exercise while standing. Bend your torso forward slightly.\n\n</p>
+        <p>2. Perform the exercise using two dumbbells at once.\n</p>
+    </string>
+    <string name="hammer">
+    <b>How to do Hammer Curl:\n\n</b>
+    <b>Step 1: </b>Stand up straight with your torso upright. Hold a dumbbell in each hand at arms-length. Your elbows should be close to your torso.\n\n
+    <b>Step 2: </b> The palms of your hands should be facing your torso. This is the starting position for the exercise.\n\n
+    <b>Step 3: </b> Curl the weight forward while contracting your biceps. Your upper arm should remain stationary. Continue to lift the weight until your biceps are fully contracted and the dumbbell is at shoulder level. Hold the contraction for a moment as you squeeze your biceps.\n\n
+    <b>Step 4: </b> Inhale and slowly start to bring the dumbbells back to the starting position.\n\n
+    <b>Step 5: </b> Repeat for the desired number of reps.\n\n
+        <b>Tips:\n\n</b>
+        1. Your elbow should remain stationary throughout the exercise; only your forearms should move.\n\n
+        2. Keep your head up as you perform the exercise.\n\n
+        <b>Variations:\n\n</b>
+        <p>1. Perform the exercise while sitting down on a bench.\n\n</p>
+        <p>2. Try alternating arms; lift the right one and then the left for one repetition.\n</p>
+    </string>
+    <string name="preacher">
+        <b>How to do Preacher Curl:\n\n</b>
+    <b>Step 1: </b> Place a barbell on the preacher bench barbell holder and sit on the preacher bench.\n\n
+    <b>Step 2: </b>  Place your torso against the preacher bench padding and rest your arms against the arm padding.\n\n
+    <b>Step 3: </b>  With your palms facing up, grasp the barbell with arms no wider than shoulder width apart. This is your starting position.\n\n
+    <b>Step 4: </b>  Exhale as your raise the barbell to your shoulders.\n\n
+    <b>Step 5: </b>  Hold the contraction for a moment as you squeeze the biceps.\n\n
+    <b>Step 6: </b>  Inhale as you lower the barbell back toward the starting position.\n\n
+    <b>Step 7: </b>  Repeat for a complete set.\n\n
+        <b>Tips:\n\n</b>
+        1. 12 to 15 repetitions make 1 set. Do this exercise for 3 sets per workout and up to 3 times per week.\n\n
+        2. Use controlled motions to raise and lower the barbell.\n\n
+        <b>Variations:\n\n</b>
+        <p>1.Use dumbbells or an EZ bar instead of a barbell.\n\n</p>
+        <p>2. Try alternating arms; lift the right one and then the left for one repetition.\n\n</p>
+        <p>3. Use a wide grip to vary the targeted muscle area.\n\n</p>
+    </string>
+    <string name="seatedcurl">
+    <b>How to do Seated Dumbbell Curl:/n/n</b>
+<b>Step 1:</b> Holding a dumbbell in each hand, sit on a flat bench and extend your arms down by your sides, palms facing each other. This is your starting position.\n\n
+<b>Step 2:</b> Using just the forearms, simultaneously bend the elbows and raise both dumbbells to your shoulders, exhaling and turning the dummbells so that your palms are facing your shoulders.\n\n
+<b>Step 3:</b> Contract your biceps for a moment and then inhale as you simultaneously lower the dumbbells back to the starting position.\n\n
+<b>Step 4:</b> Repeat for a complete set.\n\n
+        <b>Tips:\n\n</b>
+        1.For additional support you can use a bench with a back rest.\n\n
+        2.Keep your upper arms stationary as you raise and lower the dumbbells.\n\n
+        <b>Variations:\n\n</b>
+        <p>1.Alternate arms in between repetitions instead of doing them simultaneously.\n\n</p>
+        <p>2. Perform this exercise from a standing position.\n\n</p>
+    </string>
+    <string name="reverse">
+        <b>How to do Reverse Barbell Curl:\n\n</b>
+<b>Step 1:</b> With your arms extended downward in front of you, grasp a barbell so that your hands are shoulder width apart and your palms facing in towards your body. (The back of your hands should be facing forward.) Stand upright with your feet shoulder width apart. This is your starting position.\n\n
+<b>Step 2:</b> Exhaling, use only your forearms to raise the barbell to your chest, should level high.\n\n
+<b>Step 3:</b> Hold the contraction for a moment and then inhale as you lower the barbell until your arms are extended and the barbell is back in the starting position.\n\n
+<b>Step 4:</b> Repeat for a full set.\n\n
+        <b>Tips:\n\n</b>
+        1.12 to 15 repetitions complete 1 set. Do 3 sets per workout, 3 times a week.\n\n
+        2.Except for contractions, concentrate on keeping your biceps stationary.\n\n
+        <b>Variations:\n\n</b>
+        <p>1.Use an E-Z bar instead of a barbell.\n\n</p>
+        <p>2. Use an E-Z bar and a low pulley instead of a barbell.\n\n</p>
+        <p>3. Use dumbbells instead of a barbell.\n\n</p>
+        <p>4. Do a regular barbell curl by grasping the barbell palms out for your starting position.</p>
+    </string>
+    <string name="highcurl">
+        <b>How to do High Cable Curl:\n\n</b>
+<b>Step 1:</b> Stand up between two high pulleys and grasp a handle with each hand. Your upper arms should be positioned so that they are parallel to the floor with the palms of your hands facing you. This is the starting position for the exercise.\n\n
+<b>Step 2:</b> Curl the handles toward you until they are positioned next to your ears. Make sure that you exhale as you flex your biceps. Hold for a second and squeeze.\n\n
+<b>Step 3:</b> Slowly bring your arms back to the starting position.\n\n
+<b>Step 4:</b> Repeat for the number of reps in your set.\n\n
+        <b>Tips:\n\n</b>
+        1.Your upper arms should remain stationary and only your forearms should move while performing the exercise.\n\n
+        2.Move slowly and in a controlled manner when performing this exercise.\n\n
+        <b>Variations:\n\n</b>
+        <p>1.Use one pulley at a time if you wish.\n\n</p>
+        <p>2. Try alternating arms when performing this exercise.\n\n</p>
+    </string>
+    <string name="preacherhammer">
+        <b>How to do Preacher Hammer Dumbbell Curl:\n\n</b>
+<b>Step 1:</b> With a dummbell in each hand and palms facing in, position yourself on a preacher curl bench so that your torso is pressed against the waist pad and your upper arms are resting on the arm pad with the dummbells positioned upward and near your shoulders. This is your starting position.\n\n
+<b>Step 2:</b> Inhaling, use slow and controlled motion to lower the dummbells so that your arms are extended downward on the arm pad, with the wrists and dumbbells extended past the pad.\n\n
+<b>Step 3:</b> Exhaling, use slow and controlled motion to raise (curl) the dumbbells back to the starting position.\n\n
+<b>Step 4:</b> Contract the bicep for a moment and then repeat the exercise for a full set.\n\n
+        <b>Tips:\n\n</b>
+        1.Perform 3 sets of 12 to 15 repetitions each.\n\n
+        2.Use slow and controlled motion in order to isolate the bicep and forearm and avoid injury.\n\n
+        <b>Variations:\n\n</b>
+        <p>1.Use only one dumbbell at a time and complete a full set on each side before switching sides.\n\n</p>
+        <p>2. Use a dummbell in each hand but alternate arms in between repetitions.\n\n</p>
+        <p>3. Instead of dummbells, perform this exercise on a low pulley machine.</p>
+    </string>
 </resources>

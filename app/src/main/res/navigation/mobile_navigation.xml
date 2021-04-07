@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bicep">
+
+    <fragment
+        android:id="@+id/nav_bicep"
+        android:name="com.example.gymworkout.ui.Bicep.BicepExercise"
+        android:label="@string/menu_bicep"
+        tools:layout="@layout/fragment_bicep" >
+        <action
+            android:id="@+id/action_nav_bicep_to_nav_abdominal"
+            app:destination="@id/nav_abdominal" />
+        <action
+            android:id="@+id/action_nav_bicep_to_dumbellcurl"
+            app:destination="@id/dumbellcurl" />
+        <action
+            android:id="@+id/action_nav_bicep_to_concentration"
+            app:destination="@id/concentration" />
+        <action
+            android:id="@+id/action_nav_bicep_to_hammercurl"
+            app:destination="@id/hammercurl" />
+        <action
+            android:id="@+id/action_nav_bicep_to_preacher"
+            app:destination="@id/preacher" />
+        <action
+            android:id="@+id/action_nav_bicep_to_seatedcurl"
+            app:destination="@id/seatedcurl" />
+        <action
+            android:id="@+id/action_nav_bicep_to_reversecurl"
+            app:destination="@id/reversecurl" />
+        <action
+            android:id="@+id/action_nav_bicep_to_highcurl"
+            app:destination="@id/highcurl" />
+        <action
+            android:id="@+id/action_nav_bicep_to_preacherhammer"
+            app:destination="@id/preacherhammer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_abdominal"
+        android:name="com.example.gymworkout.ui.Abdominal.AbdominalExercise"
+        android:label="@string/menu_abdominal"
+        tools:layout="@layout/fragment_abdominal" >
+        <action
+            android:id="@+id/action_nav_abdominal_to_nav_tricep"
+            app:destination="@id/nav_tricep" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tricep"
+        android:name="com.example.gymworkout.ui.Tricep.TricepExercise"
+        android:label="@string/menu_tricep"
+        tools:layout="@layout/fragment_tricep" />
+    <fragment
+        android:id="@+id/dumbellcurl"
+        android:name="com.example.gymworkout.ui.Bicep.dumbellcurl"
+        android:label="Dumbell Curl"
+        tools:layout="@layout/fragment_dumbellcurl" >
+        <action
+            android:id="@+id/action_dumbellcurl_to_nav_bicep"
+            app:destination="@id/nav_bicep" />
+    </fragment>
+    <fragment
+        android:id="@+id/concentration"
+        android:name="com.example.gymworkout.ui.Bicep.Concentration"
+        android:label="Concentration Curl"
+        tools:layout="@layout/fragment_concentration" />
+    <fragment
+        android:id="@+id/hammercurl"
+        android:name="com.example.gymworkout.ui.Bicep.HammerCurl"
+        android:label="Hammer Curl"
+        tools:layout="@layout/fragment_hammer_curl" />
+    <fragment
+        android:id="@+id/preacher"
+        android:name="com.example.gymworkout.ui.Bicep.PreacherCurl"
+        android:label="Preacher Curl"
+        tools:layout="@layout/fragment_preacher_curl" />
+    <fragment
+        android:id="@+id/seatedcurl"
+        android:name="com.example.gymworkout.ui.Bicep.SeatedDumbellCurl"
+        android:label="Seated Dumbbell Curl"
+        tools:layout="@layout/fragment_seated_dumbell_curl" />
+    <fragment
+        android:id="@+id/reversecurl"
+        android:name="com.example.gymworkout.ui.Bicep.ReverseCurl"
+        android:label="Reverse Curl"
+        tools:layout="@layout/fragment_reverse_curl" />
+    <fragment
+        android:id="@+id/highcurl"
+        android:name="com.example.gymworkout.ui.Bicep.HighCableCurl"
+        android:label="High Cable Curl"
+        tools:layout="@layout/fragment_high_cable_curl" />
+    <fragment
+        android:id="@+id/preacherhammer"
+        android:name="com.example.gymworkout.ui.Bicep.PreacherHammerCurl"
+        android:label="Preacher Hammer Curl"
+        tools:layout="@layout/fragment_preacher_hammer_curl" />
+
+
+</navigation>
